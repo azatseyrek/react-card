@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Indie Flower', cursive;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border: 1px solid #555;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  min-width: 600px;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  background-color: #555;
+  color: rgb(159, 164, 166);
+  font-size: 1rem;
+}
+
+.card-info {
+  flex: 1;
+}
+
+.card-info h2 {
+  padding: 20px 0;
+}
+
+.card-image img {
+  margin: 30px;
+  border: 1px solid grey;
+  border-radius: 100%;
+}
